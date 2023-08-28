@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="8dp"
+        android:padding="16dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/CodigoEstudiante"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:hint="Código del estudiante"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                />
+
+            <EditText
+                android:id="@+id/CorreoEstudiante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Correo del estudiante"
+                android:textAlignment="center"
+                android:background="@color/white"
+                android:padding="10dp"
+                />
+
+            <EditText
+                android:id="@+id/PrimerNombreEstudiante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Primer Nombre"
+                android:textAlignment="center"
+                android:background="@color/white"
+                android:padding="10dp"
+                />
+
+            <EditText
+                android:id="@+id/PrimerApellidoEstudiante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Primer Apellido"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:background="@color/white"/>
+
+            <EditText
+                android:id="@+id/segundoApellidoEstudiante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Segundo Apellido"
+                android:textAlignment="center"
+                android:background="@color/white"
+                android:padding="10dp"/>
+
+            <EditText
+                android:id="@+id/segundoNombreEstudiante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Segundo Nombre"
+                android:background="@color/white"
+                android:textAlignment="center"
+                android:padding="10dp"/>
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/buttonGuardarCambios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Cambios"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        android:padding="10dp"/>
+
+
+</LinearLayout>

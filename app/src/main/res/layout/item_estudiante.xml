@@ -1,0 +1,73 @@
+<!-- res/layout/item_estudiante.xml -->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/CodigoEstudiante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Codigo Estudiante"
+            android:textSize="18sp"
+            android:padding="2dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/CorreoEstudiante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correo Estudiante"
+            android:padding="2dp"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/PrimerNombreEstudiante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1er Nombre"
+            android:padding="2dp"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/PrimerApellidoEstudiante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1er Apellido"
+            android:padding="2dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/segundoNombreEstudiante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2nd Nombre"
+            android:padding="2dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/segundoApellidoEstudiante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2nd Apellido"
+            android:padding="2dp"
+            android:textSize="14sp" />
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
